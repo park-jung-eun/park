@@ -1,4 +1,7 @@
 @import "reset.css";
+
+@import "components/nav-bar.css";
+
 @import "status-bar.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import "variable.css";
@@ -15,12 +18,12 @@ body{
     margin-bottom : 100px;
 }
 
-.welcom__title{
+.welcome-header__title{
 margin-bottom : 40px;
 font-size : 30px;
 }
 
-.welcome__text{
+.welcome-header__text{
    width : 30%;
    opacity : 0.7;
 }
