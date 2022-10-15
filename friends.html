@@ -14,7 +14,7 @@
             <i class="fas fa-wifi"></i>
         </div>
         <div class = "status-bar__column">
-            <span>18:24</span>
+            <span id = "clock">clock</span>
         </div>
         <div class = "status-bar__column">
             <span>11%</span>
@@ -39,28 +39,49 @@
 </a>
 
 <main class = "friends-screen">
-<div class = "user-component">
-<div class = "user-component__colum">
-<img src = "https://static-storychat.pstatic.net/2083414_26769894/d1584m63i68l0.jpg"
-  class = "user-component__avatar">
-  <div class = "user-component__text">
-    <h4>jung eun</h4>
+<div class = "user-components">
+<div class = "user-components__column">
+<img src = "https://blogfiles.pstatic.net/MjAyMjAxMjhfMzAw/MDAxNjQzMzQzOTg1NzY2.XWVqmimksk7M_r8KKw6tG_DC_Czx5iTF3MAgB0MlIyUg.1QNzjwqLIH3wUy0OH0cNSsmQe4xeKXJksOtSbaAdcrQg.JPEG.tjaruf0805/BandPhoto%EF%BC%BF2021%EF%BC%BF12%EF%BC%BF11%EF%BC%BF13%EF%BC%BF20%EF%BC%BF28.jpg"
+  class = "user-components__avatar">
+  <div class = "user-components__text">
+    <h4 class = "user-components__title">jung eun</h4>
+    <h6 class = "user-components__subtitle">상태 메세지</h6>
 </div>
 </div>
-<div class = "user-component__colum"></div>
+<div class = "user-components__column"></div>
 </div>
+<div class = "friends-screen__channel">
+<div class = "friends-screen__channel-header">
+    <span>channel</span>
+    <i class="fas fa-chevron-up"></i>
+</div>
+<div class = "user-components">
+    <div class = "user-components__column">
+    <img src = "https://blogfiles.pstatic.net/MjAyMjAxMjhfMzAw/MDAxNjQzMzQzOTg1NzY2.XWVqmimksk7M_r8KKw6tG_DC_Czx5iTF3MAgB0MlIyUg.1QNzjwqLIH3wUy0OH0cNSsmQe4xeKXJksOtSbaAdcrQg.JPEG.tjaruf0805/BandPhoto%EF%BC%BF2021%EF%BC%BF12%EF%BC%BF11%EF%BC%BF13%EF%BC%BF20%EF%BC%BF28.jpg"
+      class = "user-components__avatar">
+      <div class = "user-components__text">
+        <h4 class = "user-components__title">jung eun</h4>
+        <h6 class = "user-components__subtitle">상태 메세지</h6>
+    </div>
+    </div>
+    <div class = "user-components__column">
+        <span>2</span>
+        <i class="fas fa-chevron-right"></i>
+    </div>
+    </div>
+    </div>
 </main>
 
 
 <nav class = "nav">
         <ul class = "nav__list">
             <li class = "nav__button"><a class = "nav__link" href = "friends.html"><i class="fas fa-user fa-lg"></i></a></li>
-            <li class = "nav__button"><a class = "nav__link" href = "#">
-            <i class="fas fa-comment fa-lg"></i>
+            <li class = "nav__button"><a class = "nav__link" href = "chats.html">
+            <i class="far fa-comment fa-lg"></i>
             <span class= "nav__notification">1</span></a></li>
-            <li class = "nav__button"><a class = "nav__link" href = "#">
+            <li class = "nav__button"><a class = "nav__link" href = "find.html">
             <i class="fas fa-search fa-lg"></i></a></li>
-            <li class = "nav__button"><a class = "nav__link" href = "#">
+            <li class = "nav__button"><a class = "nav__link" href = "more.html">
             <span class = "nav_notification2"> </span>
             <i class="fas fa-ellipsis-h"></i></a></li>
         </ul>
@@ -68,5 +89,6 @@
 
     <script src="https://kit.fontawesome.com/6478f529f2.js"
     crossorigin="anonymous"></script>
+    <script src = "js/clock.js"></script>
 </body>
 </html>

@@ -8,6 +8,10 @@
 
 @import "screens/screen-header.css";
 @import "screens/friends.css";
+@import "components/user-components.css";
+@import "components/badge.css";
+@import "screens/find.css";
+
 
 body {
     font-family: 'Roboto', sans-serif;
